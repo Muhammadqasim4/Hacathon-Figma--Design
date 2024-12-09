@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* --------------------- NAVBAR ----------------------------- */
+/* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -23,8 +23,7 @@
   align-items: center; */
   gap: 2rem;
 }
-
-/* ---------------------- HERO SECTION ----------------------------------- */
+/*  HERO SECTION */
 .heroImage {
    width: 50rem;
   height: 63rem; 
@@ -61,7 +60,7 @@
   color: white;
 }
 
-/* ---------------------------- SUB TEXT ---------------------------- */
+/*  Sub text section */
 .subText {
   text-align: center;
 }
@@ -84,7 +83,7 @@
   font-weight: bold;
 }
 
-/* -------------------cardsss -------------------------------- */
+/* card section */
 
 .cardsContainer{
   
@@ -95,8 +94,7 @@
     padding: 20px; 
     justify-items: center;
 
-    /* display: flex; */
-}
+  }
 
 
 .productBtn{
@@ -114,9 +112,7 @@
 }
 
 
-/* ------------------------------ SHOP Routing------------------------------------------- */
-
-
+/* routing section */
 .shopsect h3, .shopPara{
   position: absolute;
   top: 30%;
@@ -128,22 +124,7 @@
   left: 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer section */
 .footer{
   display: flex;
   justify-content: space-around;
@@ -156,8 +137,6 @@
   outline: none;
 
 }
-
-
 footer hr {
   margin: auto;
   margin-top: 15px;
@@ -170,3 +149,68 @@ footer .para p{
   left: 13%;
   padding: 2rem 0rem;
 }
+
+
+/* Shop section */
+  .shop-hero {
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  .shop-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  .hero-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .hero-breadcrumb {
+    color: #555;
+  }
+  .breadcrumb-home {
+    font-weight: bold;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .product-info {
+    padding: 1rem;
+  }
+  .product-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .product-description {
+    color: #666;
+    margin: 0.5rem 0;
+  }
+  .product-price {
+    color: #333;
+    font-weight: bold;
+  }
+
