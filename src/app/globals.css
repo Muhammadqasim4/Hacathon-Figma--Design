@@ -11,17 +11,10 @@
 
 .navbar .head {
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
-  gap: 2rem;
+ gap: 2rem;
 }
 
-.navbar .icons {
-  display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
-  gap: 2rem;
-}
+
 /*  HERO SECTION */
 .heroImage {
    width: 50rem;
@@ -49,9 +42,7 @@
   color: #b88e2f;
 }
 
-/* .heroText p{
-  line-height: none;
-} */
+
 
 .heroText .buyBtn {
   background-color: #b88e2f;
