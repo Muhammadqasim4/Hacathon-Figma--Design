@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import ShopImage from "@/app/assests/shophero.png";
 import React from "react";
@@ -16,21 +17,21 @@ export default function ShopHero() {
   const products: Product[] = [
     {
       title: "Syltherine",
-      price: "Rp 2.500.000",
+      price: "RS 2.500.000",
       age: 30,
       imageUrl: "https://via.placeholder.com/150",
       description: "Stylish cafe chair",
     },
     {
       title: "Jane Smith",
-      price: "Rp 2.500.000",
+      price: "RS 2.500.000",
       age: 25,
       imageUrl: "https://via.placeholder.com/150",
       description: "Creative designer crafting stunning visuals.",
     },
     {
       title: "Sam Wilson",
-      price: "Rp 2.500.000",
+      price: "RS 2.500.000",
       age: 28,
       imageUrl: "https://via.placeholder.com/150",
       description: "Backend systems specialist.",
